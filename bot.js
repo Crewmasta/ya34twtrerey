@@ -15,7 +15,7 @@ if(message.content === "."){
 
 client.on("message", message => {
 if(message.content === ","){
-  message.channel.send("..")
+  message.channel.send("7389")
 }
 });
 
