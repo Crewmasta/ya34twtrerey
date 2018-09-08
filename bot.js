@@ -5,19 +5,24 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("message", message => {
-if(message.content === "."){
-  message.channel.send("#credits <@307898780588703744> 3000")
-}
-});
+client.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز **')
+    },305);
+})
+
+client.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('#daily')
+    },86400);
+})
 
 
 
-client.on("message", message => {
-if(message.content === ","){
-  message.channel.send("7389")
-}
-});
 
 client.login(process.env.BOT_TOKEN); 
 
