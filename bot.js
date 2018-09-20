@@ -26,7 +26,7 @@ var server = "473977539929309184"; // ايدي السررفر
 var channel = "492100568094081034";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد')
-    },1);
+    },305);
 })
 
 
@@ -47,7 +47,7 @@ var server = "473977539929309184"; // ايدي السررفر
 var channel = "492100568094081034";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد')
-    },1);
+    },305);
 })
 
 e.on('ready', async() => {
