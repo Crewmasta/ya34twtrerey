@@ -25,7 +25,7 @@ client.on('ready', async() => {
 var server = "473977539929309184"; // ايدي السررفر
 var channel = "492100568094081034";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد')
+    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد @everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد')
     },305);
 })
 
@@ -46,7 +46,7 @@ e.on('ready', async() => {
 var server = "473977539929309184"; // ايدي السررفر
 var channel = "492100568094081034";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد')
+    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد @everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد')
     },305);
 })
 
