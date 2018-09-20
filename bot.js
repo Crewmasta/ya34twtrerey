@@ -21,6 +21,62 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+
+
+
+ client.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
 client.on('ready', async() => {
 var server = "473977539929309184"; // ايدي السررفر
 var channel = "492100568094081034";//ايدي الروم
@@ -66,5 +122,81 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
 
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+ e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); 
+e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); 
+e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); 
+e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ }); 
+e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
+e.on("message", message => {
+   if(message.content === "#"){
+     message.channel.send('خضعووو @everyone')
+   }
+ });
 e.login(process.env.BOT_TOKEN1); 
