@@ -21,71 +21,7 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-
-
-
- client.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
-client.on('ready', async() => {
-var server = "473977539929309184"; // ايدي السررفر
-var channel = "492100568094081034";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد @everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد')
-    },305);
-})
-
-
+ 
 client.login(process.env.BOT_TOKEN); 
 
 
@@ -98,13 +34,6 @@ e.on('ready', () => {
 });
 
 
-e.on('ready', async() => {
-var server = "473977539929309184"; // ايدي السررفر
-var channel = "492100568094081034";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('@everyone سبام قمد @everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد@everyone سبام قمد')
-    },305);
-})
 
 e.on('ready', async() => {
 var server = "487652334449590272"; // ايدي السررفر
@@ -122,81 +51,5 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
 
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
- e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); 
-e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); 
-e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); 
-e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- }); 
-e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
-e.on("message", message => {
-   if(message.content === "#"){
-     message.channel.send('خضعووو @everyone')
-   }
- });
 e.login(process.env.BOT_TOKEN1); 
