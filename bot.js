@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -21,13 +22,47 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
- 
+m.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز **')
+    },305);
+})
+
+m.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('#daily')
+    },86400);
+})
+
+
+k.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز **')
+    },305);
+})
+
+k.on('ready', async() => {
+var server = "487652334449590272"; // ايدي السررفر
+var channel = "487652334449590274";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('#daily')
+    },86400);
+})
+
 client.login(process.env.BOT_TOKEN); 
 
 
 
 
 const e = new Discord.Client();
+const m = new Discord.Client();
+const k = new Discord.Client();
 
 e.on('ready', () => {
   console.log(`Logged in as ${e.user.tag}!`);
@@ -53,3 +88,5 @@ var channel = "487652334449590274";//ايدي الروم
 
 
 e.login(process.env.BOT_TOKEN1); 
+m.login(process.env.BOT_TOKEN2);
+k.login(process.env.BOT_TOKEN3);
