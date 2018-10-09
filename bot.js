@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+const m = new Discord.Client();
+const k = new Discord.Client();
+const e = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -55,14 +57,13 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
-client.login(process.env.BOT_TOKEN); 
 
 
 
 
-const e = new Discord.Client();
-const m = new Discord.Client();
-const k = new Discord.Client();
+
+
+
 
 e.on('ready', () => {
   console.log(`Logged in as ${e.user.tag}!`);
@@ -86,7 +87,7 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
-
 e.login(process.env.BOT_TOKEN1); 
 m.login(process.env.BOT_TOKEN2);
 k.login(process.env.BOT_TOKEN3);
+client.login(process.env.BOT_TOKEN); 
