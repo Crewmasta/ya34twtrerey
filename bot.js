@@ -8,6 +8,14 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+m.on('ready', () => {
+  console.log(`Logged in as ${m.user.tag}!`);
+});
+
+k.on('ready', () => {
+  console.log(`Logged in as ${k.user.tag}!`);
+});
+
 client.on('ready', async() => {
 var server = "487652334449590272"; // ايدي السررفر
 var channel = "487652334449590274";//ايدي الروم
