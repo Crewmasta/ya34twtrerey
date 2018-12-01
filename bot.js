@@ -11,7 +11,7 @@ btts.on("ready", () => {
 
 btts.on("guildMemberAdd", member => {
     
-    if(member.guild.id !== "517345819406368769") return;
+   
     
  var channel = btts.channels.get('517621662271799307')
    channel.send('**.. Welcome To, - Future Community. :leaves::tulip: **')
