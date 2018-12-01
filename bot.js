@@ -54,5 +54,24 @@ var channel = "487652334449590274";//ايدي الروم
     },86400);
 })
 
+
+const Discord = require('discord.js')
+const btts = new Discord.Client()
+
+btts.on("ready", () => {
+    console.log(`${btts.user.username} Is now ready!`)
+});
+
+btts.on("guildMemberAdd", member => {
+    
+    if(member.guild.id !== "517345819406368769") return;
+    
+ var channel = btts.channels.get('517621662271799307')
+   channel.send('**.. Welcome To, - Future Community. :leaves::tulip: **')
+   
+});
+
+btts.login(process.env.BTTS)
+
 e.login(process.env.BOT_TOKEN1); 
 client.login(process.env.BOT_TOKEN); 
